@@ -1,4 +1,4 @@
-import { as, prefixes, peers, upstreams, downstreams, ixs, prefix, ip, ix, search } from './mod.js' // import the bgpview module
+import { as, prefixes, peers, upstreams, downstreams, ixs, prefix, ip, ix, search } from 'https://deno.land/x/bgpview/mod.js' // import the bgpview module
 
 console.log(await as(13335)) // View ASN Details
 console.log(await prefixes(13335)) // View ASN Prefixes
